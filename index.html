@@ -93,7 +93,7 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <meta name="theme-color" content="#F4EBDD"><style>body{background:#F4EBDD!important;touch-action:none}canvas{touch-action:none}</style>
-	<meta name="apple-mobile-web-app-capable" content="yes"><link rel="apple-touch-icon" href="apple-touch-icon.png"><style>html,body{background:#F4EBDD!important;margin:0;overflow:hidden;overscroll-behavior:none;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}canvas{touch-action:none}</style><script>document.addEventListener('dblclick',e=>e.preventDefault(),{passive:false});document.addEventListener('contextmenu',e=>e.preventDefault());document.addEventListener('pointerdown',()=>{if(window.GodotAudio&&GodotAudio.ctx)GodotAudio.ctx.resume();},{once:true});</script></head>
+	<meta name="apple-mobile-web-app-capable" content="yes"><link rel="apple-touch-icon" href="apple-touch-icon.png"><style>html,body{background:#F4EBDD!important;margin:0;overflow:hidden;overscroll-behavior:none;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}canvas{touch-action:none}</style><script>document.addEventListener('touchmove',e=>{if(e.target.closest('canvas'))e.preventDefault();},{passive:false});document.addEventListener('dblclick',e=>e.preventDefault(),{passive:false});document.addEventListener('contextmenu',e=>e.preventDefault());document.addEventListener('pointerdown',()=>{if(window.GodotAudio&&GodotAudio.ctx)GodotAudio.ctx.resume();},{once:true});</script></head>
 	<body>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":993292,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":1010028,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
