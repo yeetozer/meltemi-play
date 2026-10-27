@@ -19,7 +19,7 @@
 				<key>bundle-identifier</key>
 				<string>com.yeetozer.meltemi</string>
 				<key>bundle-version</key>
-				<string>1000.11</string>
+				<string>1000.12</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
